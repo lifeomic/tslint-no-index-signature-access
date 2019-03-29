@@ -15,7 +15,7 @@
     "precompile": "rm -rf ./rules",
     "compile": "yarn tsc",
     "lint": "tslint --format codeFrame --project tsconfig.json 'src/**/*.ts' 'test/**/*.ts'",
-    "pretest": "yarn lint",
+    "pretest": "yarn lint && yarn compile",
     "test": "jest test/test.ts",
     "prebuild": "yarn test",
     "build": "yarn compile"

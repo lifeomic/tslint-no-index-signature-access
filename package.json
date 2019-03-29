@@ -18,7 +18,8 @@
     "pretest": "yarn lint && yarn compile",
     "test": "jest test/test.ts",
     "prebuild": "yarn test",
-    "build": "yarn compile"
+    "build": "yarn compile",
+    "prepare": "yarn compile"
   },
   "devDependencies": {
     "@types/jest": "^24.0.9",

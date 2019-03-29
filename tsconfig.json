@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "./src",
     "baseUrl": ".",
-    "outDir": "./work/dist",
+    "outDir": "./rules",
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
@@ -12,13 +12,10 @@
     "allowJs": false,
     "moduleResolution": "node",
     "module": "commonjs",
-    "target": "ESNext",
+    "target": "ES2015",
     "pretty": true,
     "inlineSourceMap": false,
-    "inlineSources": false,
-    "paths": {
-      "~/*": ["./*"]
-    }
+    "inlineSources": false
   },
   "include": ["src/**/*"]
 }

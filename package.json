@@ -7,11 +7,12 @@
     "url": "https://github.com/lifeomic/tslint-no-index-signature-access.git"
   },
   "author": "Matt Lavin <matt.lavin@lifeomic.com>",
+  "engines": {
+    "node": ">=6"
+  },
   "license": "MIT",
-  "main": "./work/dist/src/",
-  "types": "./work/dist/src/index.d.ts",
   "scripts": {
-    "precompile": "rm -rf ./work/dist",
+    "precompile": "rm -rf ./rules",
     "compile": "yarn tsc",
     "lint": "tslint --format codeFrame --project tsconfig.json 'src/**/*.ts' 'test/**/*.ts'",
     "pretest": "yarn lint",

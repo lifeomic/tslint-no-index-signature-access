@@ -1,4 +1,5 @@
 /node_modules/
 /coverage/
 /work/
+/rules/
 yarn-error.log

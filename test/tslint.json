@@ -1,5 +1,5 @@
 {
-  "rulesDirectory": ["../work/dist/src"],
+  "rulesDirectory": ["../rules"],
   "rules": {
     "no-index-signature-access": [
       true,

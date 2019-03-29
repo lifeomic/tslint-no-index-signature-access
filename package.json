@@ -1,6 +1,6 @@
 {
   "name": "tslint-no-index-signature-access",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "A TSLint rule to forbid access index signature references",
   "repository": {
     "type": "git",

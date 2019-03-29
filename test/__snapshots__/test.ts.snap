@@ -6,9 +6,9 @@ Array [
     "failure": "References to generic properties on TypeWithIndex are not allowed",
     "name": "case-class-subclass.ts",
     "startPosition": Object {
-      "character": 16,
+      "character": 0,
       "line": 8,
-      "position": 191,
+      "position": 175,
     },
   },
   Object {

@@ -6,4 +6,6 @@ class TypeWithIndexParent {
 class ChildClass extends TypeWithIndexParent {}
 
 const child: ChildClass = { prop1: 'value' };
-const childP2 = child.prop2;
+child.prop2;
+// Allow references to defined properties on the parent class
+child.prop1;

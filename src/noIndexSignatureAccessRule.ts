@@ -51,6 +51,20 @@ class NoIndexSignatureAccess extends Lint.ProgramAwareRuleWalker {
 
     const idText = ts.idText(node.name);
 
+    const symbol = typeChecker.getSymbolAtLocation(node);
+    if (symbol) {
+      const valueDeclaration = symbol.valueDeclaration;
+      if (ts.isPropertyDeclaration(valueDeclaration)) {
+        // The referenced symbol is a named property declaration on a class
+        return;
+      }
+
+      if (ts.isPropertySignature(valueDeclaration)) {
+        // The referenced symbol is a named property on an interface or type
+        return;
+      }
+    }
+
     const propertyType = typeChecker.getPropertyOfType(type, idText);
     const stringIndexType = typeChecker.getIndexInfoOfType(
       type,

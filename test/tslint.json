@@ -1,0 +1,12 @@
+{
+  "rulesDirectory": ["../work/dist/src"],
+  "rules": {
+    "no-index-signature-access": [
+      true,
+      {
+        "typePattern": "TypeWithIndex",
+        "message": "References to generic properties on TypeWithIndex are not allowed"
+      }
+    ]
+  }
+}

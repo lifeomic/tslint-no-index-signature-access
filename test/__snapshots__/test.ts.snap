@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all cases pass 1`] = `
+Array [
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-class-subclass.ts",
+    "startPosition": Object {
+      "character": 16,
+      "line": 8,
+      "position": 191,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-class.ts",
+    "startPosition": Object {
+      "character": 11,
+      "line": 6,
+      "position": 137,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-class.ts",
+    "startPosition": Object {
+      "character": 11,
+      "line": 6,
+      "position": 137,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-interface-extends.ts",
+    "startPosition": Object {
+      "character": 0,
+      "line": 8,
+      "position": 230,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-interface.ts",
+    "startPosition": Object {
+      "character": 0,
+      "line": 6,
+      "position": 157,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-interface.ts",
+    "startPosition": Object {
+      "character": 0,
+      "line": 6,
+      "position": 157,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-type-alias-union.ts",
+    "startPosition": Object {
+      "character": 11,
+      "line": 10,
+      "position": 216,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-type-alias.ts",
+    "startPosition": Object {
+      "character": 11,
+      "line": 6,
+      "position": 140,
+    },
+  },
+  Object {
+    "failure": "References to generic properties on TypeWithIndex are not allowed",
+    "name": "case-type-alias.ts",
+    "startPosition": Object {
+      "character": 11,
+      "line": 6,
+      "position": 140,
+    },
+  },
+]
+`;

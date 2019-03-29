@@ -1,0 +1,34 @@
+{
+  "name": "tslint-no-index-signature-access",
+  "version": "1.0.0",
+  "description": "A TSLint rule to forbid access index signature references",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifeomic/tslint-no-index-signature-access.git"
+  },
+  "author": "Matt Lavin <matt.lavin@lifeomic.com>",
+  "license": "MIT",
+  "main": "./work/dist/src/",
+  "types": "./work/dist/src/index.d.ts",
+  "scripts": {
+    "precompile": "rm -rf ./work/dist",
+    "compile": "yarn tsc",
+    "lint": "tslint --format codeFrame --project tsconfig.json 'src/**/*.ts' 'test/**/*.ts'",
+    "pretest": "yarn lint",
+    "test": "jest test/test.ts",
+    "prebuild": "yarn test",
+    "build": "yarn compile"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "@types/node": "^10.0.7",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.12.0",
+    "tslint-config-semistandard": "^7.0.0",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "tslint": "^5.12.0"
+  }
+}

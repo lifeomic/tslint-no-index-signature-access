@@ -1,0 +1,6 @@
+{
+  "extends": "tslint-config-semistandard",
+  "rules": {
+    "space-before-function-paren": false
+  }
+}

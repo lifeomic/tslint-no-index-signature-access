@@ -43,7 +43,6 @@ Context reference for 'custom properites' and forbid access:
 ```json
 {
   "rules": {
-    // Your other rules go here
     "no-index-signature-access": [
       true,
       {

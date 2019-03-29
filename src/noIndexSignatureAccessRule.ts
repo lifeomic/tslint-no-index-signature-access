@@ -74,13 +74,13 @@ function walkPropertyAccessExpression(
   if (symbol) {
     const valueDeclaration = symbol.valueDeclaration;
     if (valueDeclaration) {
-      if (ts.isPropertyDeclaration(valueDeclaration)) {
-        // The referenced symbol is a named property declaration on a class
-        return;
-      }
-
-      if (ts.isPropertySignature(valueDeclaration)) {
-        // The referenced symbol is a named property on an interface or type
+      if (
+        ts.isPropertyDeclaration(valueDeclaration) ||
+        ts.isPropertySignature(valueDeclaration) ||
+        ts.isMethodSignature(valueDeclaration) ||
+        ts.isMethodDeclaration(valueDeclaration)
+      ) {
+        // The referenced symbol is a named property or function then allow
         return;
       }
     }

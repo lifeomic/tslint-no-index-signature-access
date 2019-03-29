@@ -7,8 +7,8 @@ Array [
     "name": "case-class-subclass.ts",
     "startPosition": Object {
       "character": 0,
-      "line": 8,
-      "position": 175,
+      "line": 11,
+      "position": 205,
     },
   },
   Object {
@@ -34,8 +34,8 @@ Array [
     "name": "case-interface-extends.ts",
     "startPosition": Object {
       "character": 0,
-      "line": 8,
-      "position": 230,
+      "line": 13,
+      "position": 303,
     },
   },
   Object {
@@ -61,8 +61,8 @@ Array [
     "name": "case-type-alias-union.ts",
     "startPosition": Object {
       "character": 11,
-      "line": 10,
-      "position": 216,
+      "line": 15,
+      "position": 257,
     },
   },
   Object {

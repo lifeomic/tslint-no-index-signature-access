@@ -22,7 +22,7 @@
     "prepare": "yarn compile"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.9",
+    "@types/jest": "^25.1.0",
     "@types/node": "^11.12.2",
     "jest": "^24.1.0",
     "ts-jest": "^24.0.0",

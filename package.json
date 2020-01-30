@@ -25,7 +25,7 @@
     "@types/jest": "^24.0.9",
     "@types/node": "^11.12.2",
     "jest": "^24.1.0",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^25.1.0",
     "tslint": "^5.14.0",
     "tslint-config-semistandard": "^8.0.0",
     "typescript": "^3.2.2"
